@@ -10,7 +10,7 @@ $password = "";
 $database = "human_resources";
 
 // mencoba untuk membuat koneksi ke database
-$db = mysqli_connect($server, $user, $password, $databbase);
+$db = mysqli_connect($server, $user, $password, $database);
 // Memeriksa apakah koneksi berhasil
 if (!$db){
   die("Gagal terhubung dengan database: " . mysqli_connect_error());
