@@ -62,7 +62,7 @@ session_start();
             <a href="form-edit.php?karyawanID=<?php echo $karyawan['karyawan_id'] ?>">Edit</a>
             <!-- URL ke halaman hapus data dengan mengngunakan
             parameter id pada kolom tabel dan alert konfirmasi hapus dataa  -->
-            <a href="form-hapus.php?karyawanID=<?php echo $karyawan['karyawan_id'] ?>"
+            <a href="hapus.php?karyawanID=<?php echo $karyawan['karyawan_id'] ?>"
             onclick="return confirm('Tindakan ini tidak bisa dibatalkan!')">Hapus</a>
           </td>
         </tr>
